@@ -8,7 +8,7 @@ A responsive React application built using functional components. This project f
 
 ## Demo
 
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](xx)
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://github.com/user-attachments/assets/6e16c138-f1a7-470a-b606-5c3ba6258430)
 
 ## Libraries Used
 
