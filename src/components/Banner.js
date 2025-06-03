@@ -29,7 +29,7 @@ function Banner() {
         </div>
         <div className="col-md-5 text-center">
           <img
-            src="/assets/Frame-1747.png"
+            src={`${process.env.PUBLIC_URL}/assets/Frame-1747.png`}
             alt="shape"
             className="img-fluid"
             style={{ maxWidth: "80%", height: "auto" }}
