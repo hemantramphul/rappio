@@ -4,7 +4,7 @@ const therapyData = [
   {
     id: "gastro",
     title: "Gastrointestinal",
-    icon: "/assets/icon-1.png",
+    icon: `${process.env.PUBLIC_URL}/assets/icon-1.png`,
     content: {
       heading: "Opioid-induced Constipation",
       description:
@@ -28,7 +28,7 @@ const therapyData = [
   {
     id: "onco",
     title: "Oncology",
-    icon: "/assets/icon-2.png",
+    icon: `${process.env.PUBLIC_URL}/assets/icon-2.png`,
     content: {
       heading: "Breakthrough Cancer Pain",
       description:
@@ -52,7 +52,7 @@ const therapyData = [
   {
     id: "injury",
     title: "Injury",
-    icon: "/assets/icon-2.png",
+    icon: `${process.env.PUBLIC_URL}/assets/icon-2.png`,
     content: {
       heading: "Strain Muscle",
       description:

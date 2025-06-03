@@ -18,7 +18,7 @@ function Awareness() {
 
         <div className="col-md-6 text-center">
           <img
-            src="/assets/Image-space.png"
+            src={`${process.env.PUBLIC_URL}/assets/Image-space.png`}
             alt="wheelchair"
             className="img-fluid"
             style={{ maxWidth: "100%", height: "auto" }}

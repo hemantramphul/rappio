@@ -76,13 +76,13 @@ function Carousel({ onLearnMoreClick }) {
             className="btn btn-link text-decoration-none me-2"
             onClick={() => sliderRef.current.slickPrev()}
           >
-            <img src="/assets/arrow-left.png" alt="Previous" width="24" />
+            <img src={`${process.env.PUBLIC_URL}/assets/arrow-left.png`} alt="Previous" width="24" />
           </button>
           <button
             className="btn btn-link text-decoration-none"
             onClick={() => sliderRef.current.slickNext()}
           >
-            <img src="/assets/arrow-right.png" alt="Next" width="24" />
+            <img src={`${process.env.PUBLIC_URL}/assets/arrow-right.png`} alt="Next" width="24" />
           </button>
         </div>
       </div>
@@ -96,7 +96,7 @@ function Carousel({ onLearnMoreClick }) {
               <div className="flex-grow-1">
                 <div className="d-flex align-items-center mb-3">
                   <img
-                    src="/assets/icon-2.png"
+                    src={`${process.env.PUBLIC_URL}/assets/icon-2.png`} 
                     alt="icon"
                     width="20"
                     className="me-2"
