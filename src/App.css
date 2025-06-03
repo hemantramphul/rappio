@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.feature-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.feature-card:hover {
+  box-shadow: -3px 3px 0px rgba(241, 90, 36, 1) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-list img {
+  filter: drop-shadow(0px 100px 0px #f15a24);
+  transform: translateY(-100px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.learn-more-link {
+  color: #f15a24;
+  font-weight: bold;
+  text-decoration: none;
+}
+.learn-more-link:hover {
+  text-decoration: none;
+}
+
+.dot-indicator {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+}
+.dot-indicator.bg-orange {
+  background-color: #f15a24;
+}
+
+@media (max-width: 767px) {
+  .carousel-cards .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-orange {
+  color: #f15a24 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.border-orange {
+  border: 2px solid #f15a24 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-dots li.slick-active div {
+  background-color: #f15a24 !important;
+}
+
+.slick-dots li div {
+  background-color: #fff !important;
+}
+
+.slick-arrow {
+  z-index: 1;
+  top: -50px;
+  position: absolute;
+}
+
+.mb-10 {
+  margin-bottom: 15rem;
 }
